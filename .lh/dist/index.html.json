@@ -1,0 +1,22 @@
+{
+    "sourceFile": "dist/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1677549238992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1677549261565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     <meta charset=\"UTF-8\" />\n     <link rel=\"icon\" href=\"./favicon.ico\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <title>Vite App</title>\n-    <script type=\"module\"  src=\"./assets/index.4a28eeeb.js\"></script>\n+    <script type=\"module\" crossorigin src=\"./assets/index.4a28eeeb.js\"></script>\n     <link rel=\"stylesheet\" href=\"./assets/index.cf85e920.css\">\n   </head>\n   <body>\n     <div id=\"app\"></div>\n"
+                }
+            ],
+            "date": 1677549238992,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" href=\"./favicon.ico\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Vite App</title>\n    <script type=\"module\"  src=\"./assets/index.4a28eeeb.js\"></script>\n    <link rel=\"stylesheet\" href=\"./assets/index.cf85e920.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n\n  </body>\n</html>\n"
+        }
+    ]
+}

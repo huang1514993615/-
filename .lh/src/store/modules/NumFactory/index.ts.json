@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/store/modules/NumFactory/index.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1677547952057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1677547952057,
+            "name": "Commit-0",
+            "content": "import { Module } from 'vuex'\nimport NumFactoryStateTypes from './types'\nimport RootStateTypes from '../../types'\n\n// Create a new store Modules.\nconst numFactoryModule: Module<NumFactoryStateTypes, RootStateTypes> = {\n  namespaced: true,\n  state: {\n    name: 'numFactory-module',\n    count: 1\n  },\n  mutations: {\n    DOUBLE_COUNT(state: NumFactoryStateTypes) {\n      state.count += 1\n    }\n  },\n  actions: {}\n}\n\nexport default numFactoryModule\n"
+        }
+    ]
+}

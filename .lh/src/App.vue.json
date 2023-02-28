@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/App.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1677551920371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1677551945526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \n export default defineComponent({\n   name: 'App',\n   components: {\n-     Main\n+    Main\n   }\n })\n </script>\n \n"
+                }
+            ],
+            "date": 1677551920371,
+            "name": "Commit-0",
+            "content": "<template>\n  <Main />\n</template>\n\n<script lang=\"ts\">\nimport { defineComponent } from 'vue'\nimport Main from '@/components/Main.vue'\n\nexport default defineComponent({\n  name: 'App',\n  components: {\n     Main\n  }\n})\n</script>\n\n<style lang=\"stylus\">\n#app {\n  font-family Avenir, Helvetica, Arial, sans-serif\n  -webkit-font-smoothing antialiased\n  -moz-osx-font-smoothing grayscale\n  box-sizing border-box\n  position relative\n  width 100%\n  height 100%\n}\n</style>\n"
+        }
+    ]
+}

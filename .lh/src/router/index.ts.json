@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/router/index.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1677549328542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1677549328542,
+            "name": "Commit-0",
+            "content": "import { createRouter, createWebHashHistory, Router, RouteRecordRaw } from 'vue-router'\nimport Home from '@/views/Home.vue'\nimport Vuex from '@/views/Vuex.vue'\nimport Test from '@/views/Test.vue'\n\nconst routes: Array<RouteRecordRaw> = [\n  {\n    path: '/',\n    name: 'Home',\n    component: Home,\n  },\n  {\n    path: '/vuex',\n    name: 'Vuex',\n    component: Vuex\n  },\n  {\n    path: '/axios',\n    name: 'Axios',\n    component: () => import('@/views/Axios.vue') // 懒加载 Axios 组件\n  },\n  {\n    path: '/test',\n    name: 'Test',\n    component: Test\n  }\n]\n\nconst router: Router = createRouter({\n  history: createWebHashHistory(),\n  routes\n})\n\nexport default router\n"
+        }
+    ]
+}
